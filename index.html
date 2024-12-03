@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Login and Create</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">My Website</div>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#other">Other</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1 -->
+        <section class="content-section">
+            <img src="images/example1.jpg" alt="Create Account">
+            <div class="text-content">
+                <h2>Step 1: Create an Account</h2>
+                <p>Learn how to create an account by following these steps.</p>
+                <a href="create-account.html">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="content-section">
+            <img src="images/example2.jpg" alt="Login">
+            <div class="text-content">
+                <h2>Step 2: Login</h2>
+                <p>Understand the process of logging into your account securely.</p>
+                <a href="login.html">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="content-section">
+            <img src="images/example3.jpg" alt="Profile Settings">
+            <div class="text-content">
+                <h2>Step 3: Profile Settings</h2>
+                <p>Learn to customize your profile settings for a better experience.</p>
+                <a href="profile-settings.html">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Add more sections as needed -->
+    </main>
+
+    <script>
+        // Toggle the hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
